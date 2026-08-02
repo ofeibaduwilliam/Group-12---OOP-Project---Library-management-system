@@ -63,6 +63,35 @@ public:
             cout << "\nStatus: Unavailable\n";
         }
     }
+       void displayBook() {
+      cout << "\nTitle: " << title;
+      cout << "\nAuthor: " << author;
+      cout << "\nBook ID: " << bookID;
+    if (isAvailable) {
+     cout << "\nStatus: Available\n";
+      }
+    else {
+     cout << "\nStatus: Unavailable\n";
+        }
+            bool operator==(const Book& other) const {
+        return bookID == other.bookID;
+    }
+
+    // NEW: Overloaded << operator
+    friend ostream& operator<<(ostream& out, const Book& book) {
+        out << "\nTitle: " << book.title;
+        out << "\nAuthor: " << book.author;
+        out << "\nBook ID: " << book.bookID;
+        out << "\nStatus: " << (book.isAvailable ? "Available" : "Unavailable") << "\n";
+        return out;
+    }
+};
+    }
+
+    // NEW: Overloaded == operator
+    bool operator==(const Book& other) const {
+        return bookID == other.bookID;
+    }
 };
 
 class User {
