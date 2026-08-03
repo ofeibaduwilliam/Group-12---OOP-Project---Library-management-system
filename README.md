@@ -54,7 +54,7 @@ Library-Management-System/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ofeibaduwilliam/C-Junk-Drawer.git
+git clone https://github.com/ofeibaduwilliam/Group-12---OOP-Project---Library-management-system.git
 ```
 
 2. Open the project in your preferred C++ IDE.
