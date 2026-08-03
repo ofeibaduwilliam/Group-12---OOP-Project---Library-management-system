@@ -33,14 +33,13 @@ The system demonstrates fundamental concepts of file handling, object-oriented p
 Library-Management-System/
 │
 ├── src/                # Source files
-├── data/               # CSV database files
+├── files.csv               # CSV database files
+├── users.csv  
 ├── README.md
 └── ...
 ```
 
-*Note: The project structure may vary depending on implementation.*
 
----
 
 ## Getting Started
 
@@ -91,4 +90,3 @@ This project was developed for academic purposes as part of a coursework assignm
 
 This project is for educational purposes only.
 
-You can customize the repository URL under **Getting Started** after creating the GitHub repository. If your lecturer expects a more polished README, you could also add screenshots or a brief description of each team member's role.
